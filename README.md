@@ -1,0 +1,1 @@
+Initially the game is being played from the console of the browser. The GUI will be added later.
