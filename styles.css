@@ -1,0 +1,94 @@
+/* Making alll the contents of the page aligned to the centre */
+body {
+    text-align: center;
+    background-color: #621eba;
+    color: #e8eded;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Heading */
+.game-heading {
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.welcome {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.comments {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* User Selection */
+.user-selection {
+    margin: 35px;
+}
+
+/* Create three columns for each row of user selection */
+.user-selection-column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.user-selection:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Controlling the size of the image */
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+/* button formatting */
+button {
+    margin-top: 55px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    width: 188px;
+    height: 48px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+    border-width: thin;
+    background-color: #e8e4e3;
+}
+
+button:hover {
+    transform: scale(1.1);
+    border: solid black;
+}
+
+/* Scores */
+.score {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.score-column {
+    float: left;
+    width: 50%;
+}
+.score:after {
+    content: "";
+    display: table;
+    clear: both;
+}
